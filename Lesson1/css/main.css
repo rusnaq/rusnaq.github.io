@@ -42,12 +42,9 @@ div{
 
 h5{
   font-size: 14px;
+  margin-bottom: 8px;
 }
 
 li{
   line-height: 36px;
-}
-
-.contact, .position{
-  margin-top: -8px;
 }
