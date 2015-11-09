@@ -90,8 +90,8 @@ body{
   background: #f9f9f9;
   padding-left: 35px;
 }
-#last{
-  border: 0;
+li:last-child{
+  border: none;
 }
 .content{
   padding: 40px 0px 20px;
