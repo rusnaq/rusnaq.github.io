@@ -127,11 +127,11 @@ li:last-child{
   text-align: right;
 }
 .footer li{
-  display: inline;
+  display: inline-block;
   padding: 0px 30px;
 }
 .footer a{
-  display: inline;
+  display: inline-block;
   font-family: Arial, Open-Sans, sans-serif;
   font-size: 10pt;
   line-height: 20px;
