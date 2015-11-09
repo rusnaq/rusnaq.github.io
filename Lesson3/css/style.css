@@ -39,7 +39,7 @@ body{
 }
 
 .menu li{
-  display: inline;
+  display: inline-block;
 }
 .menu a{
   display: inline-block;
