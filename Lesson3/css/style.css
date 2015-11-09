@@ -22,7 +22,8 @@ body{
 /*  HEADER  */
 
 .logo{
-  padding: 46px;
+  padding: 60px 60px;
+  background: url(../img/logo.png) no-repeat 48px 36px;
 }
 .menu{
   margin: 0 auto;
