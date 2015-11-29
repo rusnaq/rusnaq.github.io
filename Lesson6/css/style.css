@@ -1,0 +1,151 @@
+body{
+  font-family: Lucida Sans, sans-serif;
+}
+
+.wrapper{
+  margin: 0 auto;
+  width:909px;
+}
+header{
+  height:28px;
+  background: #ccc;
+  margin-top: 26px;
+}
+.baner{
+  height:237px;
+  background: #2c2c2c;
+  margin-top: 12px
+}
+/*  MENU  */
+.menu{
+  background: #0a0b0c;
+  margin-top: 8px;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.7);
+}
+nav{
+
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  display: block;
+  padding: 0px 15px;
+  font-size: 14px;
+  color: #b1bcc0;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 33px;
+}
+
+.filter{
+  position: relative;
+  height:134px;
+  background: #fff;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+.auto{
+  float:left;
+  width: 415px;
+  height:100%;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 5px 5px rgba(68,68,68,0.75);
+  border-radius: 1px solid #9c9c9d;
+}
+.tires{
+  display: inline-block;
+  margin-left: 16px;
+  width:194px;
+  height:100%;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 5px 5px rgba(68,68,68,0.75);
+  border-radius: 1px solid #9c9c9d;
+}
+.disk{
+  float:right;
+  margin-left: 16px;
+  width:268px;
+  height:100%;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 5px 5px rgba(68,68,68,0.75);
+  border-radius: 1px solid #9c9c9d;
+}
+.left{
+  margin-top: 16px;
+  width:180px;
+  background:#ccc;
+  height:400px;
+  float: left;
+}
+.right{
+  margin-top: 16px;
+  width: 180px;
+  float:right;
+  height: 200px;
+  background: #7c7c7c;
+}
+/* MAIN */
+p{
+  line-height: 13px;
+  margin-bottom: 1px;
+}
+
+main{
+  display: inline-block;
+  margin: 16px 0 0 10px;
+  width:506px;
+  background: linear-gradient(to bottom, #e4e7e8, #93a7b0);
+  border-radius: 3px;
+  padding: 15px 0px 0px 24px;
+}
+article{
+  float: left;
+  margin: 0px 30px 20px 0px;
+  width: 138px;
+  text-align: center;
+  font-size: 13px;
+  color: #1f2528;
+}
+h6{
+  font-size: 16px;
+  color: #206988;
+}
+small{
+  font-size: 12px;
+}
+.price{
+  font-family: Arial, sans-serif;
+  color: #114165;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 22px;
+}
+.item-image{
+  margin-top: 4px;
+  width: 138px;
+  height: 127px;
+  border: 1px solid #a4aeb1;
+  border-radius: 8px;
+  background: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.brands{
+  margin-top: 26px;
+  clear: both;
+  height: 54px;
+  background: #ccc;
+}
+footer{
+  margin-top: 10px;
+  height: 100px;
+  background: #000;
+}
