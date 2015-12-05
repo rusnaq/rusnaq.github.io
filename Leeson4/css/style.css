@@ -25,8 +25,7 @@ body{
 .flags{
   clear: right;
   float: right;
-  width: 390px;
-  margin-top: 21px;
+  margin: 21px 30px 0px 0px;
 }
 .contacts{
   margin-top: 10px;
@@ -140,7 +139,7 @@ body{
 
 /* CONTENT */
 
-.lside{
+.sidebar-left{
   float: left;
   width: 23%;
   height: 600px;
@@ -149,13 +148,12 @@ body{
   background: #edeef0;
 }
 .content{
-  display: inline-block;
   height: 600px;
   margin: 0 auto;
   width: 53%;
 
 }
-.rside{
+.sidebar-right{
   float: right;
   height: 600px;
   border-left: 1px solid #c7cacf;
@@ -164,7 +162,7 @@ body{
 
   background: #edeef0;
 }
-.rside p, .lside p {
+.sidebar-right p, .sidebar-left p {
   padding: 0 18px;
   font-size: 14px;
   line-height: 24px;
@@ -179,6 +177,9 @@ h3 {
   color: #424c43;
 }
 
+h6 {
+  font-weight: bold;
+}
 
 /* FOOTER */
 .footer{
