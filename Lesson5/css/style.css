@@ -19,19 +19,20 @@ h1{
 
 /*  HEADER */
 
-.oferta li a{
-    padding: 4px 20px 4px 50px;
+.oferta a{
+    float: right;
+    padding: 0px 20px 0px 50px;
     line-height: 36px;
     color: #fff;
     font-size: 14px;
     text-decoration: none;
-    background: url(../img/flag.png) no-repeat 15px 0px;
+    background: url(../img/flag.png) no-repeat 15px 5px;
     border-left: 1px solid #56a2dc;
 }
 
 
-.signin li {
-  display: block;
+.signin {
+  float:right;
   margin-right: 10px;
   padding: 0px 15px;
   line-height: 36px;
@@ -50,18 +51,18 @@ h1{
   background: linear-gradient(to bottom,  #50afdc 0%,#2e7ac4 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', endColorstr='#2e7ac4',GradientType=0 ); /* IE6-9 */
 }
-.signin li a{
+.signin a{
   color:#fff;
   text-decoration: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
-.signin li a:hover{
+.signin a:hover{
   text-decoration: none;
   border-bottom: none;
 }
 .menu{
   z-index: 1000;
-  position: absolute;
+  display: inline-block;
   background: url(../img/bg-repeat.png) repeat-x;
   width: 100%;
 }
@@ -89,13 +90,10 @@ h1{
 
 
 /*  CONTENT  */
-.cont{
+.content{
   z-index: 500;
-  position: absolute;
-  margin-top: 14px;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
+  width: 560px;
+  margin: 24px auto;
 }
 
 .head-black{
