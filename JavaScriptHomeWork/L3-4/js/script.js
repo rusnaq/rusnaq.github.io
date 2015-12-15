@@ -57,8 +57,7 @@ var app = {
 var body = document.querySelector('body');
 
 var content = app.createElement({
-  tagName: 'content',
-  content: 'тест',
+  tagName: 'main',
   parentElement: body
 });
 

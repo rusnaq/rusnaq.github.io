@@ -15,6 +15,10 @@ input{
   margin-top: 18px;
 }
 
-content{
+main{
   background-color: #fff;
+  width: 600px;
+  padding: 36px;
+  margin: 24px auto;
+
 }
